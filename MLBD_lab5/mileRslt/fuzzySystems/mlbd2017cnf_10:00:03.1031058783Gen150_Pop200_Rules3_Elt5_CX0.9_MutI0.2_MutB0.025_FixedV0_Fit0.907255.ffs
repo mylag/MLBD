@@ -1,0 +1,104 @@
+<!DOCTYPE FUGE-LC_fuzzy_system_file>
+<Fuzzy_System>
+ <Dataset_name>/media/sf_MLBD_labo4/Mile_train.csv</Dataset_name>
+ <Fitness>
+  <Value>0.907255</Value>
+  <SensiW>1</SensiW>
+  <SpeciW>0</SpeciW>
+  <AccuW>0</AccuW>
+  <PPVW>1</PPVW>
+  <RMSEW>1</RMSEW>
+  <RRSEW>0</RRSEW>
+  <RAEW>0</RAEW>
+  <MSEW>0</MSEW>
+  <ADMW>0</ADMW>
+  <MDMW>0</MDMW>
+  <SizeW>0.1</SizeW>
+  <OverLearnW>0</OverLearnW>
+  <Threshold>
+   <Thresh>0.5</Thresh>
+  </Threshold>
+ </Fitness>
+ <Variables>
+  <Variable_in>
+   <Name>200661_at</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>9.04536</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>9.51661</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>1566363_at</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>7.27135</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>11.6621</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>205051_s_at</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>6.43166</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>9.97417</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>221349_at</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>4.14125</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>10.3911</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_out>
+   <Name></Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>0</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>1</Set_position>
+   </Set>
+  </Variable_out>
+ </Variables>
+ <Rules>
+  <Rule>
+   <In_Var>221349_at</In_Var>
+   <In_Set>MF 1</In_Set>
+   <Out_Var></Out_Var>
+   <Out_Set>MF 1</Out_Set>
+  </Rule>
+  <Rule>
+   <In_Var>1566363_at</In_Var>
+   <In_Set>MF 1</In_Set>
+   <In_Var>200661_at</In_Var>
+   <In_Set>MF 0</In_Set>
+   <Out_Var></Out_Var>
+   <Out_Set>MF 1</Out_Set>
+  </Rule>
+  <Rule>
+   <In_Var>205051_s_at</In_Var>
+   <In_Set>MF 1</In_Set>
+   <Out_Var></Out_Var>
+   <Out_Set>MF 0</Out_Set>
+  </Rule>
+  <Default_Rules>
+   <Default_Rule>0</Default_Rule>
+  </Default_Rules>
+ </Rules>
+</Fuzzy_System>

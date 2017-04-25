@@ -1,0 +1,57 @@
+<!DOCTYPE FUGE-LC_fuzzy_system_file>
+<Fuzzy_System>
+ <Dataset_name>/media/sf_MLBD_labo4/Mile_train.csv</Dataset_name>
+ <Fitness>
+  <Value>0.930474</Value>
+  <SensiW>0</SensiW>
+  <SpeciW>0</SpeciW>
+  <AccuW>0</AccuW>
+  <PPVW>1</PPVW>
+  <RMSEW>1</RMSEW>
+  <RRSEW>0</RRSEW>
+  <RAEW>0</RAEW>
+  <MSEW>0</MSEW>
+  <ADMW>0</ADMW>
+  <MDMW>0</MDMW>
+  <SizeW>0.6</SizeW>
+  <OverLearnW>0</OverLearnW>
+  <Threshold>
+   <Thresh>0.5</Thresh>
+  </Threshold>
+ </Fitness>
+ <Variables>
+  <Variable_in>
+   <Name>214761_at</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>3.69452</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>6.45902</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_out>
+   <Name></Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>0</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>1</Set_position>
+   </Set>
+  </Variable_out>
+ </Variables>
+ <Rules>
+  <Rule>
+   <In_Var>214761_at</In_Var>
+   <In_Set>MF 1</In_Set>
+   <Out_Var></Out_Var>
+   <Out_Set>MF 1</Out_Set>
+  </Rule>
+  <Default_Rules>
+   <Default_Rule>0</Default_Rule>
+  </Default_Rules>
+ </Rules>
+</Fuzzy_System>
